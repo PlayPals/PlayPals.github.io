@@ -1,0 +1,387 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="C:\Users\Caroline's PC\Desktop\C++ Files\PlayPals\StyleSheet1.css" />
+
+<style>
+    body {
+        background-image: url("https://cdn.pixabay.com/photo/2016/04/12/22/35/watercolour-1325656_1280.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        font-family: "Lato", sans-serif
+    }
+
+    a {
+        font-size: 25px;
+        font-family: Bahnschrift
+    }
+
+    .mySlides {
+        display: none
+    }
+
+    .alignStuff {
+        text-align: center;
+    }
+
+    .btn {
+        background-image: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/orange-color-background.jpg");
+        background-repeat: no-repeat;
+    }
+
+    #orderName {
+        vertical-align: middle;
+    }
+
+    #orderNo {
+        float: left;
+        .mySlides
+
+    {
+        display: none
+    }
+</style>
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-blue w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="#">
+                <img src="C:\Users\Caroline's PC\Downloads\PlayPalsLogo.png" style="width:9%" class="w3-bar-item w3-button">
+                <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Our Mission</a>
+                <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Register</a>
+                <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
+        </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+        <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px;padding:10%">
+
+        <!-- Automatic Slideshow Images -->
+        <div class="mySlides w3-display-container w3-center">
+            <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <a href="#tour">
+                    <button class="btn w3-button w3-teal w3-margin-bottom w3-round-xxlarge w3-jumbo"
+                            onclick="document.getElementById('Login').style.display='block'">Start!
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <!-- The Band Section -->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+            <h2 class="w3-wide">What is PlayPals?</h2>
+            <p class="w3-opacity"><i>Fostering inclusion and building friendships.</i></p>
+            <p class="w3-justify w3-center" style="padding-bottom:10px">
+                Our goal is to bring awareness and acceptance to children with special needs. After creating an account
+                and filling out a quick survey, PlayPals pairs two elementary aged children from anywhere across the U.S.
+                together, providing them with a platform to interact, learn, and have fun.
+                With video chatting and additional features letting kids read and play puzzles with each other, we aid in
+                building an inclusive community.
+    
+            </p>
+            
+            <h2 class="w3-wide" style="padding-top:20px">Who benefits from PayPals?</h2>
+            <p class="w3-opacity"><i>Everyone.</i></p>
+            <p class="w3-justify w3-center">
+                Besides both having an amazing friendship established,
+                the general ed peer learns more about patience and gets more insight into people with disabilities.
+                The special ed student helps develop their social skills and has a feeling of increased inclusion.
+                By teaching the students while they’re young, adults are building the foundation for a more inclusive society.
+            </p>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-third">
+                    <div class="w3-container w3-white">
+                        <h5>This is Amanda</h5>
+                        <img src="https://media.istockphoto.com/photos/happy-little-girl-in-christmas-clothes-picture-id611333602?k=6&m=611333602&s=612x612&w=0&h=PCBQcwT-O0vZKSc9fHW60viXLj6pTuKRWcukd19d6eM=" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+                        <p>Amanda is 7 years old and .....  </p>
+                    </div>
+                </div>
+                <div class="w3-third">
+                    <div class="w3-container w3-white">
+                        <h5>This is Tom</h5>
+                        <img src="https://lincolnfamilydentistry.com/wp-content/uploads/2018/01/happy-boy-smile-300x300.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+                        <p>Tom is 9 years old and ..... </p>
+                    </div>
+                </div>
+                <div class="w3-third">
+                    <div class="w3-container w3-white">
+                        <h5>This is Chloe</h5>
+                        <img src="https://www.mintdentalmn.com/wp-content/uploads/2019/01/Little-girl-smiling.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+                        <p>Chloe is 6 years old and ..... </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Tour Section -->
+        <div class="w3-light-grey" id="tour">
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+                <h2 class="w3-wide w3-center">Join Us Today!</h2>
+                <p>A teacher or parent must sign up a student and fill out a quick survey to get to know the child better. 
+                After the form is submitted, they will be paired with a pal from around the country. They will then get a
+                profile overview of the pal they’ve been matched with and designated call times. Further instructions will
+                be emailed.  </p>
+                <div class="w3-row-padding w3-padding-32 w3-center" style="margin:0 -16px">
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="https://st.depositphotos.com/1018611/2848/i/950/depositphotos_28480519-stock-photo-yellow-dandelions-fields.jpg" alt="Gen Ed Student" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>General Ed Student</b></p>
+                            <button class="w3-button w3-teal w3-margin-bottom" onclick="document.getElementById('ticketModalStudent').style.display='block'">Sign Up!</button>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom w3-center">
+                        <img src="https://ak2.picdn.net/shutterstock/videos/19899112/thumb/1.jpg" " alt="Special Ed Student" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Special Ed Student</b></p>
+                            <button class="w3-button w3-teal w3-margin-bottom" onclick="document.getElementById('ticketModalSpecial').style.display='block'">Sign Up!</button>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom w3-center">
+                        <img src="https://www.sju.edu/sites/default/files/styles/sju_programimage/public/edu-oatcert.jpg?itok=fGeqPma-" alt="Parent/Teacher" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Parent or Teacher</b></p>
+                            <button class="w3-button w3-teal w3-margin-bottom" onclick="document.getElementById('ticketModalTeacher').style.display='block'">Sign Up!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Login -->
+        <!--<a href="#tour" id="Login" class="w3-modal"></a>
+
+    <div id="Login" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-teal w3-center w3-padding-32">
+
+            </header>
+
+        </div>
+    </div>
+    -->
+        <!-- Ticket Modal for Student -->
+        <div id="ticketModalStudent" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+                <header class="w3-container w3-teal w3-center w3-padding-32">
+                    <span onclick="document.getElementById('ticketModalStudent').style.display='none'"
+                          class="w3-button w3-teal w3-xlarge w3-display-topright">x</span>
+                    <h2 class="w3-wide">New General Ed Student</h2>
+                </header>
+                <div align="left">
+                    <form align="center" action="http:///index.html" target="_blank" onsubmit="try {return window.confirm(&quot;This form may not function properly due to certain security constraints.\nContinue?&quot;);} catch (e) {return false;}">
+                        
+                        <div style="padding-top: 20px">
+                            <label id="orderName" align="center">Name: <input type="text" name="name"> </label>
+                        </div>
+                        <div>
+                            <label id="orderName">Age:</label>
+                            <input id="orderName" type="text" name="age">
+                        </div>
+                        <div>
+                            <label>Gender:</label>
+                            <label for="male"><input id="male" type="radio" name="male-female-other"> Male</label>
+                            <label for="female"><input id="female" type="radio" name="male-female-other"> Female</label>
+                            <label for="other"><input id="other" type="radio" name="male-female-other"> Other</label><br>
+                        </div>
+                        <div>
+                            <label>Pal's Gender Preference:</label>
+                            <label for="male"><input id="male" type="radio" name="male-female-other"> Male</label>
+                            <label for="female"><input id="female" type="radio" name="male-female-other"> Female</label>
+                            <label for="other"><input id="other" type="radio" name="male-female-other"> Other</label><br>
+                        </div>
+                       
+                        <div>
+                            <label>Grade Level:</label>
+                            <input type="text" name="level">
+                        </div>
+                      
+                        <div>
+                            <button class="w3-button w3-teal">Join</button>
+                        </div>
+                    </form>
+                </div>
+                <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModalStudent').style.display='none'">Close <i class="fa fa-remove"></i></button>
+            </div>
+        </div>
+    </div>
+        <!-- Ticket Modal for Special -->
+        <div id="ticketModalSpecial" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+                <header class="w3-container w3-teal w3-center w3-padding-32">
+                    <span onclick="document.getElementById('ticketModalSpecial').style.display='none'"
+                          class="w3-button w3-teal w3-xlarge w3-display-topright">x</span>
+                    <h2 class="w3-wide">New Special Ed Student</h2>
+                </header>
+                <div>
+                    <div align="left">
+                        <form align="center" action="http:///index.html" target="_blank" onsubmit="try {return window.confirm(&quot;This form may not function properly due to certain security constraints.\nContinue?&quot;);} catch (e) {return false;}">
+                            
+                            <div style="padding-top: 20px">
+                                <label id="orderName" align="center">Name: <input type="text" name="name"> </label>
+                            </divstyle="padding-top:>
+                            <div>
+                                <label id="orderName">Age:</label>
+                                <input id="orderName" type="text" name="age">
+                            </div>
+                            <div>
+                                <label>Gender:</label>
+                                <label for="male"><input id="male" type="radio" name="male-female-other"> Male</label>
+                                <label for="female"><input id="female" type="radio" name="male-female-other"> Female</label>
+                                <label for="other"><input id="other" type="radio" name="male-female-other"> Other</label><br>
+
+                            </div>
+                            <div>
+                                <label>Pal's Gender Preference:</label>
+                                <label for="male"><input id="male" type="radio" name="male-female-other"> Male</label>
+                                <label for="female"><input id="female" type="radio" name="male-female-other"> Female</label>
+                                <label for="other"><input id="other" type="radio" name="male-female-other"> Other</label><br>
+                            </div>
+                            <div>
+                                <label>What disabilities does your child have?</label>
+                                <input type="text" name="disabilities">
+                            </div>
+                            <div>
+                                <label>Reading Level:</label>
+                                <input type="text" name="level">
+                            </div>
+                            <div>
+                                <label>Other Notes: (behavior, tendencies, etc.)</label>
+                                <input type="text" name="note">
+                            </div>
+                            <div>
+                                <button class="w3-button w3-teal">Join</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModalSpecial').style.display='none'">Close <i class="fa fa-remove"></i></button>
+            </div>
+        </div>
+    </div>
+    <!-- Ticket Modal for Teacher -->
+    <div id="ticketModalTeacher" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-teal w3-center w3-padding-32">
+                <span onclick="document.getElementById('ticketModalTeacher').style.display='none'"
+                      class="w3-button w3-teal w3-xlarge w3-display-topright">x</span>
+                <h2 class="w3-wide">New Teacher/Parent</h2>
+            </header>
+            <div>
+                <div align="left">
+                    <form align="center" action="http:///index.html" target="_blank" onsubmit="try {return window.confirm(&quot;This form may not function properly due to certain security constraints.\nContinue?&quot;);} catch (e) {return false;}">
+                        
+                        <div style="padding-top: 20px">
+                            <label id="orderName" align="center">Group Name: <input type="text" name="name"> </label>
+                        </div>
+                        <div>
+                            <label id="orderName"> Class Code:</label>
+                            <input id="orderName" type="text" name="grade">
+                        </div>
+                        <div>
+                            <label>Class Type:</label>
+                            <label for="special ed"><input id="special ed" type="radio" name="special-general-mix"> Special Ed</label>
+                            <label for="general ed"><input id="general ed" type="radio" name="special-general-mix"> General Ed</label>
+                            <label for="mix"><input id="mix" type="radio" name="special-general-mix"> Mix</label><br>
+
+                        </div>
+                       
+                        <div>
+                            <button class="w3-button w3-teal">Join</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+                <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModalTeacher').style.display='none'">Close <i class="fa fa-remove"></i></button>
+            </div>
+        </div>
+    </div>
+    <!-- The Contact Section -->
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+        <h2 class="w3-wide w3-center">Contact us</h2>
+        <p class="w3-opacity w3-center"><i>Questions? Drop a note!</i></p>
+        <div class="w3-row w3-padding-32">
+            <div class="w3-col m6 w3-large w3-margin-bottom">
+                <i class="fa fa-map-marker" style="width:30px"></i> New York, US<br>
+                <i class="fa fa-phone" style="width:30px"></i> Phone: +1(858)925-4560<br>
+                <i class="fa fa-envelope" style="width:30px"> </i> Email: playpalsus@gmail.com<br>
+            </div>
+            <div class="w3-col m6">
+                <form action="/action_page.php" target="_blank">
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                        </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                        </div>
+                    </div>
+                    <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                    <a href="mailto:playpalsus@gmail.com">
+                        <button class="w3-button w3-black w3-section w3-right" type="submit">
+                        SEND</button>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End Page Content -->
+    
+    <!-- Image of location/map -->
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">Powered by <a href="https://urldefense.proofpoint.com/v2/url?u=https-3A__www.w3schools.com_w3css_default.asp&d=DwMGaQ&c=slrrB7dE8n7gBJbeO0g-IQ&r=gHY77posjKUlSx3zAMXjYA&m=pSJbjFDhmvcdybj0y9AQVRCavpw3ThvyvRnkRqwLDMI&s=9sSi86vIrug6d-iuUZbZUJ57JPj-1m3GWPXDO1LXB_w&e=" target="_blank">w3.css</a></p>
+    </footer>
+    <script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  //for (i = 0; i < x.length; i++) {
+    x[0].style.display = "none";
+  //}
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 4000);
+}
+// Used to toggle the menu on small screens wWhen clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+    </script>
+</body>
+</html>
